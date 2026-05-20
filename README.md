@@ -25,10 +25,14 @@ Skills for navigating Costa Rica's bureaucracy, government websites, and other l
 |---|---|
 | [`cr-snit-dta`](costarica/cr-snit-dta/) | Fetch the latest *División Territorial Administrativa* PDF from SNIT, convert to text, and parse cantones + distritos into CSVs. |
 
-## Using a skill
+## Using my skills
+
+[![skills.sh](https://skills.sh/b/esmitperez/skills)](https://skills.sh/esmitperez/skills)
+
 
 Pick one of:
 
+- **Use the  [skills.sh](https://skills.sh) installer** (30-second setup) - `npx skills@latest add esmitperez/skills`
 - **Install globally** — copy the skill folder into `~/.claude/skills/<skill-name>/` and Claude Code will auto-load it across all projects.
 - **Install per-project** — copy into `<project>/.claude/skills/<skill-name>/`.
 - **Run in place** — `cd` into the skill directory and follow its `SKILL.md`. The drivers self-resolve their paths via `BASH_SOURCE`, so they work from wherever you put them.
